@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/v1/transactions':
-        'http://localhost:5001',
+        'https://expense-tracker-livid-nu.vercel.app/',
 
     },
   }
